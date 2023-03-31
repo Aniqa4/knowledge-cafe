@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Blogs from "../blogs/blog";
+import Bookmarks from "../bookmarks/bookmarks";
 import "./body.css";
 
 function Body(){
@@ -14,7 +15,7 @@ function Body(){
     },[]);
     
     return(
-        <div>
+        <div className="body">
             <div>
                 {
                     blogs.map(blog=>
@@ -22,9 +23,7 @@ function Body(){
                     )
                 }
             </div>
-            <div>
-                <h3>Bookmarked Blogs</h3>
-            </div>
+            <Bookmarks></Bookmarks>
         </div>
     )
 }

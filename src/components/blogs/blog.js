@@ -8,15 +8,13 @@ function Blogs(props){
             <img src={BlogCoverImage} />
             <div className="all-data">
                 <div className="data">
-                    <div className="author-image"><img src={AuthorImage}/></div>
+                    <img src={AuthorImage}/>
                     <ul style={{listStyle:"none",margin:"0px"}}>
                         <li style={{fontWeight:"bold"}}>{AuthorName}</li>
                         <li>{PublishDate}</li>
                     </ul>
                 </div>
-                <div>
-                    {ReadTime}
-                </div>
+                <p> {ReadTime}</p>
             </div>
             <h3>{BlogTitle}</h3>
             <p>Mark as read</p>
