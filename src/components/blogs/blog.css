@@ -1,0 +1,18 @@
+.blog img{
+    width: 80%;
+    height: 500px;
+    border-radius: 5px;
+}
+
+.author-image img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.data{
+    display: flex;
+}
+.all-data{
+    display: flex;
+    justify-content: space-between;
+}
