@@ -4,7 +4,8 @@ import "./left-section.css"
 
 function LeftSection(props){
     const {AuthorName,BlogTitle,BlogCoverImage,PublishDate,ReadTime,AuthorImage}=props.blog;
-    console.log(props.blog);
+    const totalTimeSpent=props.totalTimeSpent;
+
     return(
         <div className="blog">
             <img src={BlogCoverImage} />
@@ -16,10 +17,10 @@ function LeftSection(props){
                         <li>{PublishDate}</li>
                     </ul>
                 </div>
-                <p>{ReadTime}&nbsp;&nbsp;&nbsp;<FontAwesomeIcon icon={faBookmark}/></p>
+                <p>{ReadTime}min read&nbsp;&nbsp;&nbsp;<FontAwesomeIcon icon={faBookmark}/></p>
             </div>
             <h3>{BlogTitle}</h3>
-            <p>Mark as read</p>
+            <p onClick={()=>totalTimeSpent(ReadTime)}>Mark as read:</p>
         </div>
     )
 }

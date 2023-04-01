@@ -6,7 +6,7 @@
         "Images":"https://cloudfront-us-east-2.images.arcpublishing.com/reuters/7VPB3I673JOHDHSHDLSTZUWBJQ.jpg",
         "BlogCoverImage":"https://cloudfront-us-east-2.images.arcpublishing.com/reuters/7VPB3I673JOHDHSHDLSTZUWBJQ.jpg",
         "AuthorImage":"https://hips.hearstapps.com/esquireuk.cdnds.net/17/34/2560x2560/square-1503312188-messi.jpg?resize=1200:*",
-        "ReadTime":"5 min read",
+        "ReadTime":5,
         "PublishDate":"Mar 24 (7days ago)"
     },
     {
@@ -16,7 +16,7 @@
         "Images":"https://ss-i.thgim.com/public/incoming/xk9xxl/article66279675.ece/alternates/FREE_1200/argentina.jpeg",
         "BlogCoverImage":"https://ss-i.thgim.com/public/incoming/xk9xxl/article66279675.ece/alternates/FREE_1200/argentina.jpeg",
         "AuthorImage":"https://static01.nyt.com/images/2021/03/19/sports/19soccer-robberies/19soccer-robberies-mediumSquareAt3X.jpg",
-        "ReadTime":"10 min read",
+        "ReadTime":10,
         "PublishDate":"Mar 24 (7days ago)"
     },
     {
@@ -26,7 +26,7 @@
         "Images":"https://cloudinary.fifa.com/m/2b75e1b99b1a72d8/original/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022.jpg",
         "BlogCoverImage":"https://cloudinary.fifa.com/m/2b75e1b99b1a72d8/original/Argentina-v-France-Final-FIFA-World-Cup-Qatar-2022.jpg",
         "AuthorImage":"https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2021/09/05/ba68d4787c7551f57b0443a78721d47f.jpg?quality=80&zoom=1&ssl=1",
-        "ReadTime":"20 min read",
+        "ReadTime":20,
         "PublishDate":"Mar 24 (7days ago)"
     },
     {
@@ -36,7 +36,7 @@
         "Images":"https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/rtl_16_9_749w/2022/09/17/node_430559/1322195/public/2022/09/17/12149353.jpg?itok=p40M4QgT1664798342",
         "BlogCoverImage":"https://rtleng.rosselcdn.net/sites/default/files/dpistyles_v2/rtl_16_9_749w/2022/09/17/node_430559/1322195/public/2022/09/17/12149353.jpg?itok=p40M4QgT1664798342",
         "AuthorImage":"https://upload.wikimedia.org/wikipedia/commons/5/53/Xavi_13981129001173637176666027076571.jpg",
-        "ReadTime":"15 min read",
+        "ReadTime":15,
         "PublishDate":"Mar 24 (7days ago)"
     }
 

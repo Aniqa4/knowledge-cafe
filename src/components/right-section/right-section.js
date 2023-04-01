@@ -1,9 +1,11 @@
 import "./right-section.css";
-function RightSection(){
+function RightSection(props){
+    const totalTime=props.totalTime;
+    
     return(
         <div>
             <div className="read-time">
-                <h5>Spend Time On Read : 00 min</h5>
+                <h5>Spend Time On Read : {totalTime} min</h5>
             </div>
             <div className="bookmarked-blogs">
                 <h3>Bookmarked Blogs: 1</h3>
