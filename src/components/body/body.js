@@ -4,6 +4,9 @@ import LeftSection from "../left-section/left-section";
 import RightSection from "../right-section/right-section";
 import "./body.css";
 
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 function Body(){
     const[blogs,setBlogs]=useState([]);
     const[totalTime,setTotalTime]=useState(0);
@@ -21,8 +24,11 @@ function Body(){
     }
 
     const bookmarkBlogs=(x)=>{
-        
         setBookmark([...bookmark,x]);
+        if(bookmark.includes(x,0)){
+            console.log('already exist');
+            toast("this item already exist");
+        }
     }
 
     return(
@@ -35,6 +41,7 @@ function Body(){
                 }
             </div>
             <RightSection totalTime={totalTime} bookmark={bookmark}></RightSection>
+            <ToastContainer />
         </div>
     )
 }
