@@ -3,9 +3,11 @@ import { useState } from "react";
 import LeftSection from "../left-section/left-section";
 import RightSection from "../right-section/right-section";
 import "./body.css";
-
+//imported toast
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+
 
 function Body(){
     const[blogs,setBlogs]=useState([]);

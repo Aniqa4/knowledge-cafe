@@ -1,4 +1,6 @@
 import "./right-section.css";
+
+
 function RightSection(props){
     const totalTime=props.totalTime;
     const bookmark=props.bookmark;
@@ -12,8 +14,8 @@ function RightSection(props){
                 <h3>Bookmarked Blogs:{bookmark.length}</h3>
                 <div>
                 {
-                    bookmark.map(title=>
-                        <h5 className="titles">{title}</h5>
+                    bookmark.map((title,index)=>
+                        <h5 key={index.toString()} className="titles">{title}</h5>
                     )
                 }
                 </div>
