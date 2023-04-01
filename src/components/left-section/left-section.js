@@ -1,6 +1,8 @@
-import "./blog.css"
+import { faBookmark } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./left-section.css"
 
-function Blogs(props){
+function LeftSection(props){
     const {AuthorName,BlogTitle,BlogCoverImage,PublishDate,ReadTime,AuthorImage}=props.blog;
     console.log(props.blog);
     return(
@@ -14,7 +16,7 @@ function Blogs(props){
                         <li>{PublishDate}</li>
                     </ul>
                 </div>
-                <p> {ReadTime}</p>
+                <p>{ReadTime}&nbsp;&nbsp;&nbsp;<FontAwesomeIcon icon={faBookmark}/></p>
             </div>
             <h3>{BlogTitle}</h3>
             <p>Mark as read</p>
@@ -22,4 +24,4 @@ function Blogs(props){
     )
 }
 
-export default Blogs;
+export default LeftSection;

@@ -1,9 +1,9 @@
-import "./bookmarks.css";
-function Bookmarks(){
+import "./right-section.css";
+function RightSection(){
     return(
         <div>
             <div className="read-time">
-                <h5>Spend Time On Read: 20min</h5>
+                <h5>Spend Time On Read : 00 min</h5>
             </div>
             <div className="bookmarked-blogs">
                 <h3>Bookmarked Blogs: 1</h3>
@@ -13,4 +13,4 @@ function Bookmarks(){
     )
 }
 
-export default Bookmarks;
+export default RightSection;

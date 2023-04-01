@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import Blogs from "../blogs/blog";
-import Bookmarks from "../bookmarks/bookmarks";
+import LeftSection from "../left-section/left-section";
+import RightSection from "../right-section/right-section";
 import "./body.css";
 
 function Body(){
@@ -19,11 +19,11 @@ function Body(){
             <div>
                 {
                     blogs.map(blog=>
-                        <Blogs key={blog.id} blog={blog}></Blogs>
+                        <LeftSection key={blog.id} blog={blog}></LeftSection>
                     )
                 }
             </div>
-            <Bookmarks></Bookmarks>
+            <RightSection></RightSection>
         </div>
     )
 }
