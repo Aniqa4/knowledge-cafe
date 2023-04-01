@@ -7,6 +7,7 @@ import "./body.css";
 function Body(){
     const[blogs,setBlogs]=useState([]);
     const[totalTime,setTotalTime]=useState(0);
+    const[bookmark,setBookmark]=useState([]);
     
     useEffect( ()=>{
         fetch('data.json')
@@ -19,16 +20,21 @@ function Body(){
         setTotalTime(totalTime+newSpentTime);
     }
 
+    const bookmarkBlogs=(x)=>{
+        
+        setBookmark([...bookmark,x]);
+    }
+
     return(
         <div className="body">
             <div>
                 {
                     blogs.map(blog=>
-                        <LeftSection key={blog.id} blog={blog} totalTimeSpent={totalTimeSpent}></LeftSection>
+                        <LeftSection key={blog.id} blog={blog} totalTimeSpent={totalTimeSpent} bookmarkBlogs={bookmarkBlogs}></LeftSection>
                     )
                 }
             </div>
-            <RightSection totalTime={totalTime}></RightSection>
+            <RightSection totalTime={totalTime} bookmark={bookmark}></RightSection>
         </div>
     )
 }
