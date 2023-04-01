@@ -11,7 +11,7 @@ function RightSection(props){
                 <h5>Spend Time On Read : {totalTime} min</h5>
             </div>
             <div className="bookmarked-blogs">
-                <h3>Bookmarked Blogs:{bookmark.length}</h3>
+                <h3>Bookmarked Blogs : {bookmark.length}</h3>
                 <div>
                 {
                     bookmark.map((title,index)=>

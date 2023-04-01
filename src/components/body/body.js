@@ -28,7 +28,7 @@ function Body(){
     const bookmarkBlogs=(x)=>{
         setBookmark([...bookmark,x]);
         if(bookmark.includes(x,0)){
-            toast("this item already exist");
+            toast("You Have Already Bookmarked This Blog");
         }
     }
 

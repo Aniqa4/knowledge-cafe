@@ -22,7 +22,7 @@ function LeftSection(props){
                 <p>{ReadTime}min read&nbsp;&nbsp;&nbsp;<FontAwesomeIcon onClick={()=>bookmarkBlogs(BlogTitle)} icon={faBookmark}/></p>
             </div>
             <h3>{BlogTitle}</h3>
-            <p onClick={()=>totalTimeSpent(ReadTime)}>Mark as read</p>
+            <p onClick={()=>totalTimeSpent(ReadTime)} style={{textDecoration:"underline"}}>Mark as read</p>
         </div>
     )
 }
