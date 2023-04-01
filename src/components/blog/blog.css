@@ -1,0 +1,18 @@
+.blog2 h1{
+    text-align: center;
+}
+
+.blog2 p{
+    color: rgb(134, 134, 134);
+}
+
+.blog2{
+    margin: 100px 0;
+}
+
+.qa div{
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(251, 251, 251);
+}
