@@ -4,3 +4,9 @@
     gap:20px;
     margin: 0;
 }
+
+@media only screen and (max-width:576px){
+    .body{
+        grid-template-columns: 1fr;
+    }
+}

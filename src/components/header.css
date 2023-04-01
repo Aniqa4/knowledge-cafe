@@ -11,3 +11,10 @@
 .nav li{
     padding: 20px;
 }
+
+@media only screen and (max-width:576px) {
+    .header{
+        display:block;
+        text-align: center;
+    }
+}
