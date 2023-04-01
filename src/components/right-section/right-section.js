@@ -6,7 +6,7 @@ function RightSection(props){
     const bookmark=props.bookmark;
     
     return(
-        <div>
+        <div className="right-section">
             <div className="read-time">
                 <h5>Spend Time On Read : {totalTime} min</h5>
             </div>
